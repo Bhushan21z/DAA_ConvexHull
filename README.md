@@ -1,7 +1,7 @@
 # DAA_ConvexHull
 DAA Assignment
 
-## Problem Statement : Implement a solution for Finding a summation of elements from a matrix.
+# Problem Statement : Implement a solution for Finding a summation of elements from a matrix.
 ## Example: Accept a 2D matrix dimension. Populate using random number [non-zero]
 
 ## Accept any five dimension values from the user for example [1,1] [4,10] 10,7] [15,3] [20,18] 
