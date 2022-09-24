@@ -9,6 +9,7 @@ DAA Assignment
 ## Solution :
 
 Step 1: Making a Matrix of 20x20(we can make matrix of any size). Putting Random numbers inside it using rand() function.
+![alt text](https://github.com/Bhushan21z/DAA_ConvexHull/blob/main/1.jpg?raw=true)
 
 Step 2: Taking 5 points from the user.
 
