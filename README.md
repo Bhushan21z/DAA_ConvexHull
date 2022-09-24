@@ -1,5 +1,7 @@
 # DAA_ConvexHull
 DAA Assignment
+Name : Bhushan Wanjari
+Roll no: 37
 
 #### Problem Statement : Implement a solution for Finding a summation of elements from a matrix.
 #### Example: Accept a 2D matrix dimension. Populate using random number [non-zero]
