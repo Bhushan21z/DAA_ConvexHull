@@ -1,6 +1,6 @@
 # DAA_ConvexHull
-DAA Assignment__
-Name : Bhushan Wanjari__
+DAA Assignment  
+Name : Bhushan Wanjari  
 Roll no: 37
 
 #### Problem Statement : Implement a solution for Finding a summation of elements from a matrix.
