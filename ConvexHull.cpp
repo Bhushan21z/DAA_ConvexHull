@@ -82,21 +82,27 @@ int main()
 {
 
     //// initializing matrix of size 20x20 with random 1 digit integer
-  int matrix[3][3];
-  for(int a=0;a<3;a++){
-    for(int b=0;b<3;b++){
-        matrix[a][b]=1;
+    int m=20;
+  int matrix[20][20];
+  for(int a=0;a<m;a++){
+    for(int b=0;b<m;b++){
+        matrix[a][b]=rand()%10;
     }
   }
 
-    int n = 4;
+    int n = 5;
     vector<pair<int, int> > points;
-    points = { { 0, 0 }, { 0, 4}, { 4, 0 },{ 4, 4 } };
+    int x,y;
+    for(int a=0;a<n;a++){
+        cin>>x>>y;
+        points.push_back( make_pair(x,y) );
+    }
+    //points = {{1,1}, {4,10},{10,7},{15,3},{20,18}};
   
     // Checking each box if it is inside convex hull or not. if present then putting the value in ans variable
    int ans=0;
-   for(int a=0;a<3;a++){
-    for(int b=0;b<3;b++){
+   for(int a=0;a<m;a++){
+    for(int b=0;b<m;b++){
         pair<int, int> query = { a, b };
         if (isInside(points, query)) {
             ans+=matrix[a][b];
